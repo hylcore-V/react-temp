@@ -1,0 +1,58 @@
+{
+  "name": "react-temp",
+  "bucket": "react-temp",
+  "preset": "react",
+  "env": "production",
+  "prefix": "20241015013656",
+  "not-first-run": true,
+  "function": {
+    "id": 30630,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29340,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1728950351,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1728959173,
+    "name": "react-temp",
+    "domain_name": "g6lu7ctryj.map.azionedge.net",
+    "url": "https://g6lu7ctryj.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 157847,
+      "origin-key": "09753657-49af-4a59-ab94-4bfeb7f590a9",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 306802,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 306803,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 306804,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
